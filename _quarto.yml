@@ -1,5 +1,5 @@
 project:
-  title: "Project Title"
+  title: "Clarifying Clarity of Responsibility"
   output-dir: _products
   execute-dir: project
   pre-render: 
@@ -7,6 +7,7 @@ project:
     - utilities/remove_artifacts.ts   # remove previously constructed files
   render:
     # specify render ordering
+    - analysis/data_building/data_building.qmd
 
 author:
   - name: Stepan Polikanov
